@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The AI Daily Wire</title>
+    <link>https://ansa30-06.github.io/ai-news-podcast/</link>
+    <atom:link href="https://ansa30-06.github.io/ai-news-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <copyright>&#169; 2026 Anmol</copyright>
+    <description>A daily brief on artificial intelligence: the handful of stories that matter, why they matter for your work, and one deeper dive each day. Curated, sourced, and skimmable.</description>
+    <itunes:author>Anmol</itunes:author>
+    <itunes:subtitle>The day's AI news that actually matters — in about twelve minutes.</itunes:subtitle>
+    <itunes:summary>A daily brief on artificial intelligence: the handful of stories that matter, why they matter for your work, and one deeper dive each day. Curated, sourced, and skimmable.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Anmol</itunes:name>
+      <itunes:email>anuragsaksenast@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://ansa30-06.github.io/ai-news-podcast/cover.jpg"/>
+    <image>
+      <url>https://ansa30-06.github.io/ai-news-podcast/cover.jpg</url>
+      <title>The AI Daily Wire</title>
+      <link>https://ansa30-06.github.io/ai-news-podcast/</link>
+    </image>
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <lastBuildDate>Tue, 28 Jul 2026 06:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>Episode 1: Welcome to the Wire - The Weights Landed</title>
+      <link>https://ansa30-06.github.io/ai-news-podcast/</link>
+      <guid isPermaLink="false">ai-daily-wire-0001</guid>
+      <pubDate>Tue, 28 Jul 2026 06:00:00 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:13:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:author>Anmol</itunes:author>
+      <description><![CDATA[The first episode of The AI Daily Wire. Moonshot AI published the full weights for Kimi K3 — a
+2.8-trillion-parameter model — and almost everything else this week is a reaction to it. Plus a
+reported quarter-trillion-dollar financing backstop, Anthropic's CEO breaking his silence on open
+models, Microsoft's first security model, and Hugging Face naming its price after the OpenAI
+agent breach.
+
+## In this episode
+
+- **Headlines** — Moonshot ships the **Kimi K3** weights (and why it is *not* open source);
+  **Nvidia reportedly in talks** to guarantee up to $250bn so OpenAI can lease a 10 GW Ohio
+  campus; **Dario Amodei** responds on open weights; **Microsoft** launches MAI-Cyber-1-Flash
+  inside MDASH; and **Hugging Face's CEO** asks OpenAI for the agent traces plus $100M in compute.
+- **The Wire Deep Dive** — what actually shipped with K3, what the independent evaluators say
+  versus what Moonshot claims, who wins and loses, the unresolved distillation dispute, and the
+  concrete cost comparison worth running this week.
+
+## Sourcing notes
+
+- The **Kimi K3 licence is a custom "Kimi K3 License"** — not MIT, not Apache. Several outlets
+  have this wrong. Open weights and open source are not the same thing.
+- Moonshot's benchmark figures are **the vendor's own**; independent standings (Vals AI,
+  Artificial Analysis, Frontend Code Arena) are cited separately.
+- The **Nvidia backstop is talks-stage and anonymously sourced**. Nvidia declined to comment.
+- **Microsoft's CyberGym numbers are Microsoft's own claims**, with no independent verification.
+- The **distillation allegation is an unresolved dispute**, not a finding.
+
+## Sources
+
+- [Kimi K3 — Hugging Face model card](https://huggingface.co/moonshotai/Kimi-K3) · [licence](https://huggingface.co/moonshotai/Kimi-K3/blob/main/LICENSE)
+- [Kimi K3 open weights — The New Stack](https://thenewstack.io/kimi-k3-open-weights/) · [coding head-to-head](https://thenewstack.io/kimi-k3-fable-coding-benchmark/)
+- [The open-weights escalation — Nathan Lambert, Interconnects](https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation)
+- [Nvidia–OpenAI $250bn backstop talks — CNBC](https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html)
+- [Our position on open-weights models — Anthropic](https://www.anthropic.com/news/position-open-weights-models) · [TechCrunch](https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/)
+- [MAI-Cyber-1-Flash inside MDASH — Microsoft](https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/) · [TechCrunch](https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/)
+- [Hugging Face CEO calls for radical transparency — TechCrunch](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/) · [Hugging Face incident disclosure](https://huggingface.co/blog/security-incident-july-2026)
+- [White House accuses Moonshot of distillation — CyberScoop](https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/)
+
+## Built by
+
+This show is made by a solo developer who builds things in his spare time. If any of it is
+useful to you, these are the projects behind it:
+
+- **Handled** — done-for-you content and AI agent workflows for creators and busy professionals.
+  Get in touch: **handled.anmol@gmail.com**
+- **Culmen Games** — an indie Android game studio.
+  Get in touch: **studiosculmen@gmail.com**
+
+Both are early-stage and built in the open. Questions, ideas, or just want to say hi? Either
+address above reaches me.]]></description>
+      <content:encoded><![CDATA[The first episode of The AI Daily Wire. Moonshot AI published the full weights for Kimi K3 — a
+2.8-trillion-parameter model — and almost everything else this week is a reaction to it. Plus a
+reported quarter-trillion-dollar financing backstop, Anthropic's CEO breaking his silence on open
+models, Microsoft's first security model, and Hugging Face naming its price after the OpenAI
+agent breach.
+
+## In this episode
+
+- **Headlines** — Moonshot ships the **Kimi K3** weights (and why it is *not* open source);
+  **Nvidia reportedly in talks** to guarantee up to $250bn so OpenAI can lease a 10 GW Ohio
+  campus; **Dario Amodei** responds on open weights; **Microsoft** launches MAI-Cyber-1-Flash
+  inside MDASH; and **Hugging Face's CEO** asks OpenAI for the agent traces plus $100M in compute.
+- **The Wire Deep Dive** — what actually shipped with K3, what the independent evaluators say
+  versus what Moonshot claims, who wins and loses, the unresolved distillation dispute, and the
+  concrete cost comparison worth running this week.
+
+## Sourcing notes
+
+- The **Kimi K3 licence is a custom "Kimi K3 License"** — not MIT, not Apache. Several outlets
+  have this wrong. Open weights and open source are not the same thing.
+- Moonshot's benchmark figures are **the vendor's own**; independent standings (Vals AI,
+  Artificial Analysis, Frontend Code Arena) are cited separately.
+- The **Nvidia backstop is talks-stage and anonymously sourced**. Nvidia declined to comment.
+- **Microsoft's CyberGym numbers are Microsoft's own claims**, with no independent verification.
+- The **distillation allegation is an unresolved dispute**, not a finding.
+
+## Sources
+
+- [Kimi K3 — Hugging Face model card](https://huggingface.co/moonshotai/Kimi-K3) · [licence](https://huggingface.co/moonshotai/Kimi-K3/blob/main/LICENSE)
+- [Kimi K3 open weights — The New Stack](https://thenewstack.io/kimi-k3-open-weights/) · [coding head-to-head](https://thenewstack.io/kimi-k3-fable-coding-benchmark/)
+- [The open-weights escalation — Nathan Lambert, Interconnects](https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation)
+- [Nvidia–OpenAI $250bn backstop talks — CNBC](https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html)
+- [Our position on open-weights models — Anthropic](https://www.anthropic.com/news/position-open-weights-models) · [TechCrunch](https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/)
+- [MAI-Cyber-1-Flash inside MDASH — Microsoft](https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/) · [TechCrunch](https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/)
+- [Hugging Face CEO calls for radical transparency — TechCrunch](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/) · [Hugging Face incident disclosure](https://huggingface.co/blog/security-incident-july-2026)
+- [White House accuses Moonshot of distillation — CyberScoop](https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/)
+
+## Built by
+
+This show is made by a solo developer who builds things in his spare time. If any of it is
+useful to you, these are the projects behind it:
+
+- **Handled** — done-for-you content and AI agent workflows for creators and busy professionals.
+  Get in touch: **handled.anmol@gmail.com**
+- **Culmen Games** — an indie Android game studio.
+  Get in touch: **studiosculmen@gmail.com**
+
+Both are early-stage and built in the open. Questions, ideas, or just want to say hi? Either
+address above reaches me.]]></content:encoded>
+      <enclosure url="https://ansa30-06.github.io/ai-news-podcast/audio/0001.mp3" length="18875915" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>

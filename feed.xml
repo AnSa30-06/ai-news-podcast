@@ -28,8 +28,123 @@
     <itunes:category text="Technology">
       <itunes:category text="Tech News"/>
     </itunes:category>
-    <lastBuildDate>Tue, 28 Jul 2026 06:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 06:00:00 +0530</lastBuildDate>
 
+    <item>
+      <title>Episode 2: Who's Actually Paying for All This Compute?</title>
+      <link>https://ansa30-06.github.io/ai-news-podcast/</link>
+      <guid isPermaLink="false">ai-daily-wire-0002</guid>
+      <pubDate>Thu, 30 Jul 2026 06:00:00 +0530</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:13:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:author>Anmol</itunes:author>
+      <description><![CDATA[Two landmark data-center deals landed in a single week, and together they reveal how the entire AI buildout is now being financed: with borrowed money and vendor guarantees, increasingly kept off the balance sheets of the companies whose names are on the buildings. We cover the week's biggest AI-agent headlines, then dig into the reported Nvidia-OpenAI backstop and the signed Meta-BlackRock joint venture, the circularity underneath both, and what it means if you're building your work on tools funded this way. Measured, sourced, and framed around what you can actually do about it.
+
+## In this episode
+- Moonshot AI open-sources Kimi K3, the largest open-weight model ever (2.8T-parameter MoE, 1M-token context, ~1.5 TB download)
+- The Model Context Protocol ships its biggest spec ever and goes stateless at its core
+- "Pacing the Frontier": 1,100+ employees of rival labs ask Washington for a deliberate pacing tool (not a moratorium)
+- Cyera to acquire Oasis Security for ~$1B to govern what AI agents can access
+- Nvidia launches the Open Secure AI Alliance, with OpenAI, Google, and Anthropic sitting it out
+- Update: Hugging Face rebuilt ~a third of its infrastructure after the agent breach from Episode 1
+- Deep dive: who's actually paying for all this compute? The Nvidia-OpenAI ~$250B backstop, the Meta-BlackRock El Paso deal, and the circular, off-balance-sheet money underneath the AI boom
+
+## Sources
+
+**Deep dive: AI buildout financing**
+- [CNBC — Nvidia and OpenAI in talks for up to $250B AI backstop](https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html)
+- [Data Center Dynamics — Nvidia considers $250bn backstop for OpenAI's 10GW Ohio data center](https://www.datacenterdynamics.com/en/news/nvidia-considers-250bn-backstop-for-openais-planned-10gw-ohio-data-center-report/)
+- [The Next Web — Nvidia-OpenAI $250 billion backstop, Ohio data centre](https://thenextweb.com/news/nvidia-openai-250-billion-backstop-ohio-data-centre)
+- [Meta investor newsroom — New strategic venture with BlackRock to develop El Paso data center](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-New-Strategic-Venture-with-BlackRock-to-Develop-Data-Center-in-El-Paso/default.aspx)
+- [CNBC — Meta and BlackRock partner on $14B El Paso data center](https://www.cnbc.com/2026/07/28/meta-blackrock-partner-on-14-billion-el-paso-data-center.html)
+- [Forbes — BlackRock will own 80% of Meta's new AI data center in El Paso](https://www.forbes.com/sites/maryroeloffs/2026/07/28/blackrock-will-own-80-of-metas-massive-new-ai-data-center-in-el-paso/)
+
+**Kimi K3**
+- [Tom's Hardware — Moonshot releases 2.8-trillion-parameter Kimi K3](https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3)
+- [VentureBeat — China's Moonshot AI releases Kimi K3, the largest open-source model ever](https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems)
+
+**Model Context Protocol spec**
+- [MCP official blog — the 2026-07-28 specification](https://blog.modelcontextprotocol.io/posts/2026-07-28/)
+- [AWS — How AgentCore Gateway supports the MCP 2026-07-28 spec](https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/)
+- [VentureBeat — MCP just got its biggest update ever](https://venturebeat.com/infrastructure/mcp-just-got-its-biggest-update-ever-heres-what-changes-for-ai-agents)
+
+**"Pacing the Frontier" letter**
+- [The Next Web — Pacing the Frontier: AI employees' letter to the US government](https://thenextweb.com/news/pacing-the-frontier-ai-employees-letter-us-government)
+- [Yahoo News — Over 1,100 AI workers sign the letter](https://www.yahoo.com/news/politics/articles/over-1-100-ai-workers-212659630.html)
+
+**Cyera / Oasis Security**
+- [TechCrunch — Cyera agrees to acquire Oasis Security for $1B](https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/)
+
+**Nvidia Open Secure AI Alliance**
+- [Nvidia blog — Open Secure AI Alliance](https://blogs.nvidia.com/blog/open-secure-ai-alliance/)
+- [Infosecurity Magazine — Nvidia Open Security AI Alliance](https://www.infosecurity-magazine.com/news/nvidia-open-security-ai-alliance/)
+
+**Hugging Face rebuild (Episode 1 follow-up)**
+- [The Register — OpenAI's agent siege forced a significant rebuild at Hugging Face](https://www.theregister.com/ai-and-ml/2026/07/28/openais-agent-siege-forced-significant-rebuild-at-hugging-face/5279577)
+
+---
+
+Sister show: AI Workflow and Tips Daily — a daily how-to from the same network.
+
+Built by:
+- Culmen Games — a solo indie game studio building an Android roster. studiosculmen@gmail.com
+- Handled — done-for-you content and AI agent workflows for creators and busy professionals. handled.anmol@gmail.com]]></description>
+      <content:encoded><![CDATA[Two landmark data-center deals landed in a single week, and together they reveal how the entire AI buildout is now being financed: with borrowed money and vendor guarantees, increasingly kept off the balance sheets of the companies whose names are on the buildings. We cover the week's biggest AI-agent headlines, then dig into the reported Nvidia-OpenAI backstop and the signed Meta-BlackRock joint venture, the circularity underneath both, and what it means if you're building your work on tools funded this way. Measured, sourced, and framed around what you can actually do about it.
+
+## In this episode
+- Moonshot AI open-sources Kimi K3, the largest open-weight model ever (2.8T-parameter MoE, 1M-token context, ~1.5 TB download)
+- The Model Context Protocol ships its biggest spec ever and goes stateless at its core
+- "Pacing the Frontier": 1,100+ employees of rival labs ask Washington for a deliberate pacing tool (not a moratorium)
+- Cyera to acquire Oasis Security for ~$1B to govern what AI agents can access
+- Nvidia launches the Open Secure AI Alliance, with OpenAI, Google, and Anthropic sitting it out
+- Update: Hugging Face rebuilt ~a third of its infrastructure after the agent breach from Episode 1
+- Deep dive: who's actually paying for all this compute? The Nvidia-OpenAI ~$250B backstop, the Meta-BlackRock El Paso deal, and the circular, off-balance-sheet money underneath the AI boom
+
+## Sources
+
+**Deep dive: AI buildout financing**
+- [CNBC — Nvidia and OpenAI in talks for up to $250B AI backstop](https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html)
+- [Data Center Dynamics — Nvidia considers $250bn backstop for OpenAI's 10GW Ohio data center](https://www.datacenterdynamics.com/en/news/nvidia-considers-250bn-backstop-for-openais-planned-10gw-ohio-data-center-report/)
+- [The Next Web — Nvidia-OpenAI $250 billion backstop, Ohio data centre](https://thenextweb.com/news/nvidia-openai-250-billion-backstop-ohio-data-centre)
+- [Meta investor newsroom — New strategic venture with BlackRock to develop El Paso data center](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-New-Strategic-Venture-with-BlackRock-to-Develop-Data-Center-in-El-Paso/default.aspx)
+- [CNBC — Meta and BlackRock partner on $14B El Paso data center](https://www.cnbc.com/2026/07/28/meta-blackrock-partner-on-14-billion-el-paso-data-center.html)
+- [Forbes — BlackRock will own 80% of Meta's new AI data center in El Paso](https://www.forbes.com/sites/maryroeloffs/2026/07/28/blackrock-will-own-80-of-metas-massive-new-ai-data-center-in-el-paso/)
+
+**Kimi K3**
+- [Tom's Hardware — Moonshot releases 2.8-trillion-parameter Kimi K3](https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3)
+- [VentureBeat — China's Moonshot AI releases Kimi K3, the largest open-source model ever](https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems)
+
+**Model Context Protocol spec**
+- [MCP official blog — the 2026-07-28 specification](https://blog.modelcontextprotocol.io/posts/2026-07-28/)
+- [AWS — How AgentCore Gateway supports the MCP 2026-07-28 spec](https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/)
+- [VentureBeat — MCP just got its biggest update ever](https://venturebeat.com/infrastructure/mcp-just-got-its-biggest-update-ever-heres-what-changes-for-ai-agents)
+
+**"Pacing the Frontier" letter**
+- [The Next Web — Pacing the Frontier: AI employees' letter to the US government](https://thenextweb.com/news/pacing-the-frontier-ai-employees-letter-us-government)
+- [Yahoo News — Over 1,100 AI workers sign the letter](https://www.yahoo.com/news/politics/articles/over-1-100-ai-workers-212659630.html)
+
+**Cyera / Oasis Security**
+- [TechCrunch — Cyera agrees to acquire Oasis Security for $1B](https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/)
+
+**Nvidia Open Secure AI Alliance**
+- [Nvidia blog — Open Secure AI Alliance](https://blogs.nvidia.com/blog/open-secure-ai-alliance/)
+- [Infosecurity Magazine — Nvidia Open Security AI Alliance](https://www.infosecurity-magazine.com/news/nvidia-open-security-ai-alliance/)
+
+**Hugging Face rebuild (Episode 1 follow-up)**
+- [The Register — OpenAI's agent siege forced a significant rebuild at Hugging Face](https://www.theregister.com/ai-and-ml/2026/07/28/openais-agent-siege-forced-significant-rebuild-at-hugging-face/5279577)
+
+---
+
+Sister show: AI Workflow and Tips Daily — a daily how-to from the same network.
+
+Built by:
+- Culmen Games — a solo indie game studio building an Android roster. studiosculmen@gmail.com
+- Handled — done-for-you content and AI agent workflows for creators and busy professionals. handled.anmol@gmail.com]]></content:encoded>
+      <enclosure url="https://ansa30-06.github.io/ai-news-podcast/audio/0002.mp3" length="19635138" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Episode 1: Welcome to the Wire - The Weights Landed</title>
       <link>https://ansa30-06.github.io/ai-news-podcast/</link>

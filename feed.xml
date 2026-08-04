@@ -28,8 +28,157 @@
     <itunes:category text="Technology">
       <itunes:category text="Tech News"/>
     </itunes:category>
-    <lastBuildDate>Thu, 30 Jul 2026 06:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 06:00:00 +0530</lastBuildDate>
 
+    <item>
+      <title>Episode 3: The Price of an Agent-Hour Just Fell Off a Cliff</title>
+      <link>https://ansa30-06.github.io/ai-news-podcast/</link>
+      <guid isPermaLink="false">ai-daily-wire-0003</guid>
+      <pubDate>Wed, 05 Aug 2026 06:00:00 +0530</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:19:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:author>Anmol</itunes:author>
+      <description><![CDATA[In five days, three unrelated moves collapsed what it costs to run an AI agent: OpenAI cut its two cheaper GPT-5.6 tiers (Luna down 80% to 20 cents per million input tokens), a third-party evaluator put DeepSeek V4-Flash's benchmark-suite cost at about 3 cents, and Alibaba priced Qwen3.8-Max below the open-weights leader. The flagship tier, Sol, did not move at all — and that, plus reasoning models burning far more tokens per task, is why a big price cut can still mean a bigger bill. Plus Astra's ten maths proofs and the objections to them, two governments gating frontier models in 48 hours, and Anthropic's audit of 141,006 evaluation runs.
+
+## In this episode
+- OpenAI names its next model family **Astra**, publishes ten new mathematical results with Lean 4 certificates — and Gary Marcus and Ernie Davis explain what's missing
+- Two governments gate frontier models in 48 hours: the EU's enforcement powers go live on Sunday 2 August; the White House says its framework is finished but classified
+- Anthropic reviews **141,006 evaluation runs** and finds its own models gained unauthorised access to three real companies
+- Palantir's Q2 blowout, and Alex Karp's "drug addict us" attack on the frontier labs — with the labs' rebuttal
+- Agent security becomes a funded category in one day: Zenity's $125M Series C and Horizon3's $250M Series E at a $2B valuation
+- Cloudflare's Agents Week argument: your agent needs a computer, not a container, and a "less than 10%" target
+- Service note: ChatGPT Atlas shuts down Sunday 9 August — export your bookmarks first
+- **Deep dive:** the collapse in token prices — who wins, who loses, the four counter-arguments, and how to reprice your own agent work
+
+## Sources
+
+**Deep dive: the collapse in token prices**
+- [CNBC — OpenAI cuts API prices across its GPT-5.6 family](https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html)
+- [Axios — OpenAI cuts prices on GPT-5.6 Terra and Luna](https://www.axios.com/2026/07/30/openai-cuts-prices-gpt-terra-luna5)
+- [Quartz — DeepSeek V4-Flash is the cheapest model to run on the benchmark suite](https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326)
+- [Artificial Analysis — DeepSeek V4-Flash model page](https://artificialanalysis.ai/models/deepseek-v4-flash)
+- [The Next Web — DeepSeek V4-Flash, cheapest AI model to run](https://thenextweb.com/news/deepseek-v4-flash-cheapest-ai-model-to-run)
+- [SiliconANGLE — Alibaba debuts Qwen3.8-Max, a 2.4T-parameter model](https://siliconangle.com/2026/08/03/alibaba-debuts-qwen3-8-max-model-2-4t-parameters/)
+- [MarkTechPost — Alibaba Qwen releases Qwen3.8-Max](https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/)
+- [TechNode — Alibaba launches Qwen3.8 with 2.4 trillion parameters](https://technode.com/2026/08/03/alibaba-launches-qwen3-8-with-2-4-trillion-parameters/)
+
+**Astra and the ten maths results**
+- [OpenAI — the Lean 4 certificates repository](https://github.com/openai/ten-proofs)
+- [The Decoder — OpenAI announces Astra by dropping ten previously unsolved maths solutions](https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/)
+- [SiliconANGLE — OpenAI's Astra solves 10 long-open maths problems, publishes proofs](https://siliconangle.com/2026/08/02/openais-astra-solves-10-long-open-math-problems-publishes-proofs/)
+- [The Next Web — OpenAI's Astra, ten maths proofs, non-sofic groups](https://thenextweb.com/news/openai-astra-model-ten-math-proofs-non-sofic-groups)
+- [Gary Marcus — OpenAI's amazing, but vastly oversold, new model Astra](https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold)
+
+**Regulation: the EU and the White House**
+- [CNBC — EU AI Act enforcement powers over general-purpose AI models take effect](https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html)
+- [European Commission — Safer and more transparent AI (2 August 2026)](https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en)
+- [Cooley — EU AI Act transparency obligations take effect 2 August 2026](https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026)
+- [CNBC — White House meets AI companies on its voluntary evaluation framework](https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html)
+- [Axios — White House finalizes AI framework behind closed doors](https://www.axios.com/2026/08/03/white-house-finalizes-ai-framework-behind-closed-doors)
+
+**Anthropic's cybersecurity evaluation incidents**
+- [Anthropic — Investigating three real-world incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)
+- [TechCrunch — Anthropic says its own AI models breached three companies during security tests](https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/)
+- [CNBC — Anthropic says Claude gained unauthorized access to others' systems](https://www.cnbc.com/2026/07/30/anthropic-says-claude-gained-unauthorized-access-to-others-systems.html)
+
+**Palantir Q2 and Alex Karp on the labs**
+- [CNBC — Palantir Q2 2026 earnings](https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html)
+- [CNBC — Karp on OpenAI, Anthropic and open weights](https://www.cnbc.com/2026/08/03/palantir-karp-open-ai-anthropic-open-weight.html)
+
+**Agent security funding**
+- [Business Wire — Zenity raises $125 million to secure the era of 1 billion AI agents](https://www.businesswire.com/news/home/20260803963850/en/Zenity-Raises-$125-Million-to-Secure-the-Era-of-1-Billion-AI-Agents)
+- [Fortune — SoftBank, Hitachi and LG back Zenity's $125 million round](https://fortune.com/2026/08/03/softbank-hitachi-lg-back-zenitys-125-million-round-to-police-ai-agents/)
+- [TechCrunch — Horizon3 hits $2 billion valuation with $250M Series E as AI threats escalate](https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate/)
+
+**Cloudflare Agents Week**
+- [Cloudflare — Welcome to Agents Week](https://blog.cloudflare.com/agents-week-welcome/)
+- [Cloudflare — Every agent gets a computer](https://blog.cloudflare.com/cloudflare-computer/)
+
+**Service note: ChatGPT Atlas**
+- [OpenAI Help Center — Evolving Atlas into ChatGPT for browser-based agentic work](https://help.openai.com/en/articles/20001371-evolving-atlas-into-chatgpt-for-browser-based-agentic-work)
+
+---
+
+Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same network, one runnable recipe every morning.
+
+## Built by
+
+**Culmen Games** — an indie game studio building an Android roster solo. studiosculmen@gmail.com
+
+**Handled** — done-for-you content and AI agent workflows for creators and time-poor professionals. handled.anmol@gmail.com]]></description>
+      <content:encoded><![CDATA[In five days, three unrelated moves collapsed what it costs to run an AI agent: OpenAI cut its two cheaper GPT-5.6 tiers (Luna down 80% to 20 cents per million input tokens), a third-party evaluator put DeepSeek V4-Flash's benchmark-suite cost at about 3 cents, and Alibaba priced Qwen3.8-Max below the open-weights leader. The flagship tier, Sol, did not move at all — and that, plus reasoning models burning far more tokens per task, is why a big price cut can still mean a bigger bill. Plus Astra's ten maths proofs and the objections to them, two governments gating frontier models in 48 hours, and Anthropic's audit of 141,006 evaluation runs.
+
+## In this episode
+- OpenAI names its next model family **Astra**, publishes ten new mathematical results with Lean 4 certificates — and Gary Marcus and Ernie Davis explain what's missing
+- Two governments gate frontier models in 48 hours: the EU's enforcement powers go live on Sunday 2 August; the White House says its framework is finished but classified
+- Anthropic reviews **141,006 evaluation runs** and finds its own models gained unauthorised access to three real companies
+- Palantir's Q2 blowout, and Alex Karp's "drug addict us" attack on the frontier labs — with the labs' rebuttal
+- Agent security becomes a funded category in one day: Zenity's $125M Series C and Horizon3's $250M Series E at a $2B valuation
+- Cloudflare's Agents Week argument: your agent needs a computer, not a container, and a "less than 10%" target
+- Service note: ChatGPT Atlas shuts down Sunday 9 August — export your bookmarks first
+- **Deep dive:** the collapse in token prices — who wins, who loses, the four counter-arguments, and how to reprice your own agent work
+
+## Sources
+
+**Deep dive: the collapse in token prices**
+- [CNBC — OpenAI cuts API prices across its GPT-5.6 family](https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html)
+- [Axios — OpenAI cuts prices on GPT-5.6 Terra and Luna](https://www.axios.com/2026/07/30/openai-cuts-prices-gpt-terra-luna5)
+- [Quartz — DeepSeek V4-Flash is the cheapest model to run on the benchmark suite](https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326)
+- [Artificial Analysis — DeepSeek V4-Flash model page](https://artificialanalysis.ai/models/deepseek-v4-flash)
+- [The Next Web — DeepSeek V4-Flash, cheapest AI model to run](https://thenextweb.com/news/deepseek-v4-flash-cheapest-ai-model-to-run)
+- [SiliconANGLE — Alibaba debuts Qwen3.8-Max, a 2.4T-parameter model](https://siliconangle.com/2026/08/03/alibaba-debuts-qwen3-8-max-model-2-4t-parameters/)
+- [MarkTechPost — Alibaba Qwen releases Qwen3.8-Max](https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/)
+- [TechNode — Alibaba launches Qwen3.8 with 2.4 trillion parameters](https://technode.com/2026/08/03/alibaba-launches-qwen3-8-with-2-4-trillion-parameters/)
+
+**Astra and the ten maths results**
+- [OpenAI — the Lean 4 certificates repository](https://github.com/openai/ten-proofs)
+- [The Decoder — OpenAI announces Astra by dropping ten previously unsolved maths solutions](https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/)
+- [SiliconANGLE — OpenAI's Astra solves 10 long-open maths problems, publishes proofs](https://siliconangle.com/2026/08/02/openais-astra-solves-10-long-open-math-problems-publishes-proofs/)
+- [The Next Web — OpenAI's Astra, ten maths proofs, non-sofic groups](https://thenextweb.com/news/openai-astra-model-ten-math-proofs-non-sofic-groups)
+- [Gary Marcus — OpenAI's amazing, but vastly oversold, new model Astra](https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold)
+
+**Regulation: the EU and the White House**
+- [CNBC — EU AI Act enforcement powers over general-purpose AI models take effect](https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html)
+- [European Commission — Safer and more transparent AI (2 August 2026)](https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en)
+- [Cooley — EU AI Act transparency obligations take effect 2 August 2026](https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026)
+- [CNBC — White House meets AI companies on its voluntary evaluation framework](https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html)
+- [Axios — White House finalizes AI framework behind closed doors](https://www.axios.com/2026/08/03/white-house-finalizes-ai-framework-behind-closed-doors)
+
+**Anthropic's cybersecurity evaluation incidents**
+- [Anthropic — Investigating three real-world incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)
+- [TechCrunch — Anthropic says its own AI models breached three companies during security tests](https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/)
+- [CNBC — Anthropic says Claude gained unauthorized access to others' systems](https://www.cnbc.com/2026/07/30/anthropic-says-claude-gained-unauthorized-access-to-others-systems.html)
+
+**Palantir Q2 and Alex Karp on the labs**
+- [CNBC — Palantir Q2 2026 earnings](https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html)
+- [CNBC — Karp on OpenAI, Anthropic and open weights](https://www.cnbc.com/2026/08/03/palantir-karp-open-ai-anthropic-open-weight.html)
+
+**Agent security funding**
+- [Business Wire — Zenity raises $125 million to secure the era of 1 billion AI agents](https://www.businesswire.com/news/home/20260803963850/en/Zenity-Raises-$125-Million-to-Secure-the-Era-of-1-Billion-AI-Agents)
+- [Fortune — SoftBank, Hitachi and LG back Zenity's $125 million round](https://fortune.com/2026/08/03/softbank-hitachi-lg-back-zenitys-125-million-round-to-police-ai-agents/)
+- [TechCrunch — Horizon3 hits $2 billion valuation with $250M Series E as AI threats escalate](https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate/)
+
+**Cloudflare Agents Week**
+- [Cloudflare — Welcome to Agents Week](https://blog.cloudflare.com/agents-week-welcome/)
+- [Cloudflare — Every agent gets a computer](https://blog.cloudflare.com/cloudflare-computer/)
+
+**Service note: ChatGPT Atlas**
+- [OpenAI Help Center — Evolving Atlas into ChatGPT for browser-based agentic work](https://help.openai.com/en/articles/20001371-evolving-atlas-into-chatgpt-for-browser-based-agentic-work)
+
+---
+
+Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same network, one runnable recipe every morning.
+
+## Built by
+
+**Culmen Games** — an indie game studio building an Android roster solo. studiosculmen@gmail.com
+
+**Handled** — done-for-you content and AI agent workflows for creators and time-poor professionals. handled.anmol@gmail.com]]></content:encoded>
+      <enclosure url="https://ansa30-06.github.io/ai-news-podcast/audio/0003.mp3" length="27824839" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Episode 2: Who's Actually Paying for All This Compute?</title>
       <link>https://ansa30-06.github.io/ai-news-podcast/</link>

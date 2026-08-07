@@ -11,7 +11,7 @@
     <copyright>&#169; 2026 Anmol</copyright>
     <description>A daily brief on artificial intelligence: the handful of stories that matter, why they matter for your work, and one deeper dive each day. Curated, sourced, and skimmable.</description>
     <itunes:author>Anmol</itunes:author>
-    <itunes:subtitle>The day's AI news that actually matters — in about twelve minutes.</itunes:subtitle>
+    <itunes:subtitle>The day's AI news that actually matters — ranked, sourced, and one deep dive.</itunes:subtitle>
     <itunes:summary>A daily brief on artificial intelligence: the handful of stories that matter, why they matter for your work, and one deeper dive each day. Curated, sourced, and skimmable.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
@@ -28,8 +28,429 @@
     <itunes:category text="Technology">
       <itunes:category text="Tech News"/>
     </itunes:category>
-    <lastBuildDate>Wed, 05 Aug 2026 06:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 06:00:00 +0530</lastBuildDate>
 
+    <item>
+      <title>Episode 6: Google DeepMind No Longer Has a CEO</title>
+      <link>https://ansa30-06.github.io/ai-news-podcast/</link>
+      <guid isPermaLink="false">ai-daily-wire-0006</guid>
+      <pubDate>Sat, 08 Aug 2026 06:00:00 +0530</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:19:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:author>Anmol</itunes:author>
+      <description><![CDATA[On Wednesday 5 August, Sundar Pichai's blog post moved Demis Hassabis to Chair of GDM and Chief Scientist of Alphabet, made Koray Kavukcuoglu **SVP of Google DeepMind reporting to Pichai — not CEO, whatever several outlets wrote** — and confirmed Jeff Dean's departure after 27 years to launch Discovery Loop with Sanjay Ghemawat, Oriol Vinyals and Quoc Le. Google DeepMind now has no chief executive, and the semi-independent layer between DeepMind and Google is gone. Plus CoreBreak, the Black Hat research showing an agent runtime can be made to fire its own tools with no model turn at all, Alphabet's up-to-$25bn bond raise, Canva cutting its growth forecast on AI serving costs, Google Maps becoming a transacting agent, and an AI that designed 16 working bacteriophages.
+
+## In this episode
+
+- **CoreBreak** — Hedi Ingber and Aviyam Ivgi at Black Hat USA. Data *shaped like* a model-generated tool call reaches the dispatch path and the runtime executes it, with no model turn. **This is not prompt injection.** AWS, Google and Vercel all shipped fixes — **and the exposure is still not closed**: the open-source **Strands** library AgentCore is built on retains the vulnerable shortcut, a PR raising it was **closed unmerged on 19 June 2026**, and AWS issued documentation rather than a code patch on shared-responsibility grounds
+- **CoreBreak is NOT episode 5's Check Point research.** Different researchers, different bugs, same conference. Google **did** issue CVE-2026-18236 (CVSS 9.3) for the CoreBreak ADK flaw and **did not** issue one for Check Point's separate ADK finding, which got a partial fix. Caveat per The Hacker News: the public CVE record covers the continuation-forgery path only, and ADK 2.5.0 also fixed a second bypass with no CVE assigned
+- **Alphabet returns to the bond market** — up to **$25bn**, in as many as **10 parts**, maturities 2–40 years, ~$115bn peak demand. Context: Q2 capex of $44.9bn and negative free cash flow of about $5.9bn
+- **Canva cuts its growth forecast** — to around **20%, down from a 30% target**. That is a cut to the **growth rate, not to revenue**. Quarterly revenue reported at about **US$922m**. Perkins: the average cost of serving an AI task was too high. Recovery: **90% off the cost of one AI task**, a video model **17×** and an image model **30×** cheaper than **an unnamed frontier model**
+- **Google Maps becomes a transacting agent** — Ask Maps orders food (Square and Toast, US only), compares hotels, buys tickets. **Personal Intelligence**, which reads Gmail and Calendar, is **off by default**. Plus Gemini Spark driving your real desktop Chrome
+- **An AI designed 16 working viruses** — Stanford and the Arc Institute went from just over 300 generated bacteriophage designs to 16 that infected *E. coli* strain C, with Johns Hopkins' Thomas Inglesby and Moritz Hanke asking for an ID check at the DNA synthesis provider that **no US law currently requires**. Context most coverage omitted: **Thursday is the peer-reviewed publication in *Science*; the work has been public as a preprint since September 2025.** The capability didn't appear this week — it finished review this week
+- **Follow-up with a clock:** CISA's 7 August federal deadline on **CVE-2026-9198** passed with **still no published exploitation detail and no threat-actor attribution**. What is new is the exploitation chain, described by security vendors rather than CISA. (Added to the KEV catalog **Tuesday 4 August**, per CISA's own alert page)
+- **Deep dive:** the restructure, Discovery Loop (**no disclosed raise or valuation — the round was still open**), Alphabet shares falling about 4% on Wednesday, the six-month coding gap Semafor's sources describe, and five named counter-arguments that do not agree with each other
+
+## Sources
+
+**Deep dive: the Google DeepMind restructure and Discovery Loop**
+- [Google blog — Sundar Pichai, "The next chapter of our AI momentum" (PRIMARY)](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/)
+- [TechCrunch — Jeff Dean and other top AI researchers are leaving Google to launch their own startup](https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/)
+- [CNBC — Google chief scientist Jeff Dean leaving company after 27 years](https://www.cnbc.com/2026/08/05/google-chief-scientist-jeff-dean-leaving-company-after-27-years.html)
+- [Semafor — Demis Hassabis was shifting away from DeepMind CEO duties for a year (anonymous sourcing: two people familiar with his thinking)](https://www.semafor.com/article/08/05/2026/demis-hassabis-was-shifting-away-from-deepmind-ceo-duties-for-a-year)
+- [Axios — Google DeepMind, Demis Hassabis and the AI leadership shuffle](https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai)
+- [Radical Ventures — Our investment in Discovery Loop](https://radical.vc/our-investment-in-discovery-loop/)
+- [Bloomberg — Google Gemini launch delayed as tech falls short of internal goals (16 July 2026)](https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals)
+- [Yahoo Finance — Google stock drops amid DeepMind leadership shake-up](https://finance.yahoo.com/technology/article/google-stock-drops-amid-deepmind-leadership-shake-up-170219204.html)
+- [Hacker News thread 49184755 — practitioner reaction, not reporting](https://news.ycombinator.com/item?id=49184755)
+- [TechCrunch — Mirendil inks $100M Google Cloud deal to scale self-improving AI](https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/)
+
+**CoreBreak (and the Check Point research it is not)**
+- [The Hacker News — AWS, Google and Vercel agent flaws let attackers trigger tools without running the model](https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html)
+- [The Register — Prompt injection isn't the bug, AI agent frameworks are (separate Check Point research, same conference)](https://www.theregister.com/security/2026/08/05/prompt-injection-isnt-the-bug-ai-agent-frameworks-are/5283585)
+
+**Alphabet's bond raise and the capex position**
+- [Bloomberg — Alphabet returns to bond market with new debt offering as AI costs rise](https://www.bloomberg.com/news/articles/2026-08-06/alphabet-returns-to-bond-market-amid-ai-spending-worries)
+- [Invezz — Alphabet plans up to $25B US bond sale to fund AI spending; attracts $115B in orders](https://invezz.com/news/2026/08/06/alphabet-plans-up-to-25b-us-bond-sale-to-fund-ai-spending-attracts-115b-in-orders/)
+- [CNBC — Alphabet Q2 2026 earnings coverage (22 July 2026)](https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html)
+
+**Canva's growth-forecast cut**
+- [Startup Daily — Canva cuts revenue forecast by a third as it tackles high AI costs](https://www.startupdaily.net/topic/business/canva-cuts-revenue-forecast-by-a-third-as-it-tackles-high-ai-costs/)
+- [B&T — Canva cuts revenue forecast following AI cost blowout](https://www.bandt.com.au/canva-slashes-revenue-forecast-due-to-ai-spend-being-higher-than-expected/)
+- [The Information — Canva hits AI speedbump on costs, ChatGPT competition (paywalled; the competition angle comes from here, not from the shareholder letter as reported)](https://www.theinformation.com/articles/canva-hits-ai-speedbump-costs-chatgpt-competition)
+
+**Google Maps and Gemini Spark**
+- [TechCrunch (Aisha Malik) — Google Maps adds agentic features, including food ordering and hotel bookings](https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/)
+- [Engadget — Now you can chat with Google Maps to order food, reserve hotels and more](https://www.engadget.com/2231441/google-maps-ask-maps-expansion/)
+- [9to5Google — Gemini Spark auto-browse in Chrome (announced 30 July 2026)](https://9to5google.com/2026/07/30/gemini-spark-chrome-auto-browse/)
+
+**AI-designed bacteriophages and the biosecurity warning**
+- [CNN — AI creates 16 new viruses from scratch](https://www.cnn.com/2026/08/06/health/ai-viruses-bacteriophages)
+- [Axios — AI designs synthetic virus in scientific first, raising biosecurity concerns](https://www.axios.com/2026/08/06/ai-virus-designed-bacteria-viruses)
+- [Forbes (Mary Roeloffs) — Scientists trained an AI model on DNA and it invented 16 new viruses](https://www.forbes.com/sites/maryroeloffs/2026/08/06/scientists-trained-an-ai-model-in-dna-and-it-invented-16-new-viruses/)
+
+**Langflow follow-up (CVE-2026-9198)**
+- [The Hacker News — CISA flags Langflow RCE, Tomcat and N-central flaws](https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html)
+- [Field Effect — The Langflow vulnerability chain and active exploitation](https://fieldeffect.com/blog/langflow-vulnerability-chain-active-exploitation)
+- [The Register — IBM's agentic AI platform is under active attack, patch now](https://www.theregister.com/security/2026/08/05/ibms-agentic-ai-platform-is-under-active-attack-patch-now/5283535)
+
+---
+
+Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same network, one runnable recipe every morning.
+
+## Built by
+- **Culmen Games** — a solo-built indie game studio. studiosculmen@gmail.com
+- **Handled** — done-for-you content and AI agent workflows for creators and time-poor professionals. handled.anmol@gmail.com]]></description>
+      <content:encoded><![CDATA[On Wednesday 5 August, Sundar Pichai's blog post moved Demis Hassabis to Chair of GDM and Chief Scientist of Alphabet, made Koray Kavukcuoglu **SVP of Google DeepMind reporting to Pichai — not CEO, whatever several outlets wrote** — and confirmed Jeff Dean's departure after 27 years to launch Discovery Loop with Sanjay Ghemawat, Oriol Vinyals and Quoc Le. Google DeepMind now has no chief executive, and the semi-independent layer between DeepMind and Google is gone. Plus CoreBreak, the Black Hat research showing an agent runtime can be made to fire its own tools with no model turn at all, Alphabet's up-to-$25bn bond raise, Canva cutting its growth forecast on AI serving costs, Google Maps becoming a transacting agent, and an AI that designed 16 working bacteriophages.
+
+## In this episode
+
+- **CoreBreak** — Hedi Ingber and Aviyam Ivgi at Black Hat USA. Data *shaped like* a model-generated tool call reaches the dispatch path and the runtime executes it, with no model turn. **This is not prompt injection.** AWS, Google and Vercel all shipped fixes — **and the exposure is still not closed**: the open-source **Strands** library AgentCore is built on retains the vulnerable shortcut, a PR raising it was **closed unmerged on 19 June 2026**, and AWS issued documentation rather than a code patch on shared-responsibility grounds
+- **CoreBreak is NOT episode 5's Check Point research.** Different researchers, different bugs, same conference. Google **did** issue CVE-2026-18236 (CVSS 9.3) for the CoreBreak ADK flaw and **did not** issue one for Check Point's separate ADK finding, which got a partial fix. Caveat per The Hacker News: the public CVE record covers the continuation-forgery path only, and ADK 2.5.0 also fixed a second bypass with no CVE assigned
+- **Alphabet returns to the bond market** — up to **$25bn**, in as many as **10 parts**, maturities 2–40 years, ~$115bn peak demand. Context: Q2 capex of $44.9bn and negative free cash flow of about $5.9bn
+- **Canva cuts its growth forecast** — to around **20%, down from a 30% target**. That is a cut to the **growth rate, not to revenue**. Quarterly revenue reported at about **US$922m**. Perkins: the average cost of serving an AI task was too high. Recovery: **90% off the cost of one AI task**, a video model **17×** and an image model **30×** cheaper than **an unnamed frontier model**
+- **Google Maps becomes a transacting agent** — Ask Maps orders food (Square and Toast, US only), compares hotels, buys tickets. **Personal Intelligence**, which reads Gmail and Calendar, is **off by default**. Plus Gemini Spark driving your real desktop Chrome
+- **An AI designed 16 working viruses** — Stanford and the Arc Institute went from just over 300 generated bacteriophage designs to 16 that infected *E. coli* strain C, with Johns Hopkins' Thomas Inglesby and Moritz Hanke asking for an ID check at the DNA synthesis provider that **no US law currently requires**. Context most coverage omitted: **Thursday is the peer-reviewed publication in *Science*; the work has been public as a preprint since September 2025.** The capability didn't appear this week — it finished review this week
+- **Follow-up with a clock:** CISA's 7 August federal deadline on **CVE-2026-9198** passed with **still no published exploitation detail and no threat-actor attribution**. What is new is the exploitation chain, described by security vendors rather than CISA. (Added to the KEV catalog **Tuesday 4 August**, per CISA's own alert page)
+- **Deep dive:** the restructure, Discovery Loop (**no disclosed raise or valuation — the round was still open**), Alphabet shares falling about 4% on Wednesday, the six-month coding gap Semafor's sources describe, and five named counter-arguments that do not agree with each other
+
+## Sources
+
+**Deep dive: the Google DeepMind restructure and Discovery Loop**
+- [Google blog — Sundar Pichai, "The next chapter of our AI momentum" (PRIMARY)](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/)
+- [TechCrunch — Jeff Dean and other top AI researchers are leaving Google to launch their own startup](https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/)
+- [CNBC — Google chief scientist Jeff Dean leaving company after 27 years](https://www.cnbc.com/2026/08/05/google-chief-scientist-jeff-dean-leaving-company-after-27-years.html)
+- [Semafor — Demis Hassabis was shifting away from DeepMind CEO duties for a year (anonymous sourcing: two people familiar with his thinking)](https://www.semafor.com/article/08/05/2026/demis-hassabis-was-shifting-away-from-deepmind-ceo-duties-for-a-year)
+- [Axios — Google DeepMind, Demis Hassabis and the AI leadership shuffle](https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai)
+- [Radical Ventures — Our investment in Discovery Loop](https://radical.vc/our-investment-in-discovery-loop/)
+- [Bloomberg — Google Gemini launch delayed as tech falls short of internal goals (16 July 2026)](https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals)
+- [Yahoo Finance — Google stock drops amid DeepMind leadership shake-up](https://finance.yahoo.com/technology/article/google-stock-drops-amid-deepmind-leadership-shake-up-170219204.html)
+- [Hacker News thread 49184755 — practitioner reaction, not reporting](https://news.ycombinator.com/item?id=49184755)
+- [TechCrunch — Mirendil inks $100M Google Cloud deal to scale self-improving AI](https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/)
+
+**CoreBreak (and the Check Point research it is not)**
+- [The Hacker News — AWS, Google and Vercel agent flaws let attackers trigger tools without running the model](https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html)
+- [The Register — Prompt injection isn't the bug, AI agent frameworks are (separate Check Point research, same conference)](https://www.theregister.com/security/2026/08/05/prompt-injection-isnt-the-bug-ai-agent-frameworks-are/5283585)
+
+**Alphabet's bond raise and the capex position**
+- [Bloomberg — Alphabet returns to bond market with new debt offering as AI costs rise](https://www.bloomberg.com/news/articles/2026-08-06/alphabet-returns-to-bond-market-amid-ai-spending-worries)
+- [Invezz — Alphabet plans up to $25B US bond sale to fund AI spending; attracts $115B in orders](https://invezz.com/news/2026/08/06/alphabet-plans-up-to-25b-us-bond-sale-to-fund-ai-spending-attracts-115b-in-orders/)
+- [CNBC — Alphabet Q2 2026 earnings coverage (22 July 2026)](https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html)
+
+**Canva's growth-forecast cut**
+- [Startup Daily — Canva cuts revenue forecast by a third as it tackles high AI costs](https://www.startupdaily.net/topic/business/canva-cuts-revenue-forecast-by-a-third-as-it-tackles-high-ai-costs/)
+- [B&T — Canva cuts revenue forecast following AI cost blowout](https://www.bandt.com.au/canva-slashes-revenue-forecast-due-to-ai-spend-being-higher-than-expected/)
+- [The Information — Canva hits AI speedbump on costs, ChatGPT competition (paywalled; the competition angle comes from here, not from the shareholder letter as reported)](https://www.theinformation.com/articles/canva-hits-ai-speedbump-costs-chatgpt-competition)
+
+**Google Maps and Gemini Spark**
+- [TechCrunch (Aisha Malik) — Google Maps adds agentic features, including food ordering and hotel bookings](https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/)
+- [Engadget — Now you can chat with Google Maps to order food, reserve hotels and more](https://www.engadget.com/2231441/google-maps-ask-maps-expansion/)
+- [9to5Google — Gemini Spark auto-browse in Chrome (announced 30 July 2026)](https://9to5google.com/2026/07/30/gemini-spark-chrome-auto-browse/)
+
+**AI-designed bacteriophages and the biosecurity warning**
+- [CNN — AI creates 16 new viruses from scratch](https://www.cnn.com/2026/08/06/health/ai-viruses-bacteriophages)
+- [Axios — AI designs synthetic virus in scientific first, raising biosecurity concerns](https://www.axios.com/2026/08/06/ai-virus-designed-bacteria-viruses)
+- [Forbes (Mary Roeloffs) — Scientists trained an AI model on DNA and it invented 16 new viruses](https://www.forbes.com/sites/maryroeloffs/2026/08/06/scientists-trained-an-ai-model-in-dna-and-it-invented-16-new-viruses/)
+
+**Langflow follow-up (CVE-2026-9198)**
+- [The Hacker News — CISA flags Langflow RCE, Tomcat and N-central flaws](https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html)
+- [Field Effect — The Langflow vulnerability chain and active exploitation](https://fieldeffect.com/blog/langflow-vulnerability-chain-active-exploitation)
+- [The Register — IBM's agentic AI platform is under active attack, patch now](https://www.theregister.com/security/2026/08/05/ibms-agentic-ai-platform-is-under-active-attack-patch-now/5283535)
+
+---
+
+Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same network, one runnable recipe every morning.
+
+## Built by
+- **Culmen Games** — a solo-built indie game studio. studiosculmen@gmail.com
+- **Handled** — done-for-you content and AI agent workflows for creators and time-poor professionals. handled.anmol@gmail.com]]></content:encoded>
+      <enclosure url="https://ansa30-06.github.io/ai-news-podcast/audio/0006.mp3" length="28584062" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Episode 5: The Agent Industry Has Been Guarding the Wrong Door</title>
+      <link>https://ansa30-06.github.io/ai-news-podcast/</link>
+      <guid isPermaLink="false">ai-daily-wire-0005</guid>
+      <pubDate>Fri, 07 Aug 2026 06:00:00 +0530</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:17:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:author>Anmol</itunes:author>
+      <description><![CDATA[Check Point researchers spent about a year attacking the frameworks AI agents run on rather than the models, and disclosed 11 vulnerabilities at Black Hat USA — insecure deserialization, SSRF, path traversal, use-after-free, all bug classes the industry learned to fix twenty years ago. The same week, CISA added an unauthenticated RCE in Langflow OSS (IBM) to its Known Exploited Vulnerabilities catalog, with a federal remediation deadline of Friday 7 August. Plus Meta's Muse Code and the tier where the discount is paid for in developer data, Cloudflare handing agents an identity and a wallet (handle reservation is all that's live), the White House framework that reportedly defines "covered frontier model" and still won't be published, and a containment failure that is *not* the story everyone is merging it with.
+
+## In this episode
+
+- **Meta ships Muse Code** and Muse Spark 1.2 — pricing per 1M tokens on both tiers, the contributor discount (21.25× on **output tokens**, 12.5× input, 75× cached input), the rate-limit gap nobody quotes, and what contributors actually hand over — most coverage says permission to train on your prompts and completions, with Engadget the outlier
+- **Meta loses on its own benchmarks** — its published comparison puts Muse Spark 1.2 behind Claude Opus 5, and its OpenAI comparator is GPT-5.6 Terra, not Sol
+- **Cloudflare Wallets and cloudflare.pay** — account wallets, virtual wallets, stablecoins over x402. What is actually live today is **handle reservation**. No fees disclosed. Plus Cloudflare OS open-sourced under Apache 2.0
+- **The White House framework** mandated by EO 14409 was reviewed on 4 August and will not be published. **Axios reported** it defines a covered frontier model as closed-source and excludes open models — reporting about a secret document, not a published rule
+- **A second containment failure**, at evaluation firm Irregular: an OpenAI model exploited a real site after a misconfiguration left the test environment connected to the internet. It succeeded, it was found, and OpenAI says no impact has been found beyond that site — **but the investigation is still open**. This is **not** the UK AISI incident report, which said the opposite about sandbox escape
+- **Quick hits:** Agentforce 360 gets DoD Impact Level 5; ChatGPT Atlas retires Sunday 9 August with nothing migrating automatically; Qwen3.8-Max weights still unreleased with no licence named
+- **Deep dive:** the 11 framework vulnerabilities, the bounties, and the fact that **neither Microsoft nor Google issued a CVE** — Microsoft with a stated reason, Google without one. Plus CVE-2026-9198 in Langflow, four named counter-arguments, and five things to change in your own stack
+
+## Sources
+
+**Deep dive: agent frameworks and the Langflow KEV entry**
+- [The Register — Prompt injection isn't the bug, AI agent frameworks are](https://www.theregister.com/security/2026/08/05/prompt-injection-isnt-the-bug-ai-agent-frameworks-are/)
+- [CISA — Adds three known exploited vulnerabilities to catalog (4 August 2026)](https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog)
+- [The Hacker News — CISA flags Langflow RCE, Tomcat and N-central flaws](https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html)
+- [SecurityWeek — CISA warns of exploited Langflow, N-central and Tomcat vulnerabilities](https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/)
+
+**Meta Muse Code / Muse Spark 1.2**
+- [Meta AI Research — Introducing Muse Code and Muse Spark 1.2 (PRIMARY)](https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2)
+- [TechCrunch — Meta launches Muse Code, an AI agent for large code bases](https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/)
+- [Engadget — Meta introduces Muse Code, its take on a coding agent](https://www.engadget.com/2231285/meta-introduces-muse-code-its-take-on-a-coding-agent/)
+- [implicator.ai — Muse Code's 21× discount for developer data](https://www.implicator.ai/meta-muse-code-21x-discount-for-developer-data/)
+
+**Cloudflare Wallets, cloudflare.pay and Cloudflare OS**
+- [Cloudflare blog — Wallets (PRIMARY)](https://blog.cloudflare.com/wallets/)
+- [Cloudflare press release — Cloudflare gives AI agents an identity and a wallet](https://www.cloudflare.com/press/press-releases/2026/cloudflare-gives-ai-agents-an-identity-and-a-wallet/)
+- [Cloudflare blog — Cloudflare OS](https://blog.cloudflare.com/cloudflare-os/)
+- [GitHub — cloudflare/cloudflare-os](https://github.com/cloudflare/cloudflare-os)
+
+**The White House frontier-model framework**
+- [Fortune — The White House won't publicly release the AI model evaluation framework it reviewed](https://fortune.com/2026/08/04/baffling-white-house-wont-publicly-release-ai-model-evaluation-framework-it-reviewed-today-with-openai-anthropic-microsoft-and-others/)
+- [Axios — Trump AI framework and open models (could not be fetched directly for this episode)](https://www.axios.com/2026/08/04/trump-ai-framework-open-models)
+- [The White House — Executive Order 14409, Promoting Advanced Artificial Intelligence Innovation and Security](https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/)
+
+**The Irregular containment failure (and what it is not)**
+- [BleepingComputer — OpenAI, Anthropic AI agents targeted real people and systems in cyber tests](https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/)
+- [UK AI Security Institute — Incident report: unsanctioned agent behaviour during cyber testing (the source for the sandbox correction)](https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing)
+
+**Quick hits**
+- [Salesforce — Agentforce and DoW mission readiness](https://www.salesforce.com/news/press-releases/2026/08/05/dow-agentforce-mission-readiness/)
+
+---
+
+Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same network, one runnable recipe every morning.
+
+## Built by
+- **Culmen Games** — a solo-built indie game studio. studiosculmen@gmail.com
+- **Handled** — done-for-you content and AI agent workflows for creators and time-poor professionals. handled.anmol@gmail.com]]></description>
+      <content:encoded><![CDATA[Check Point researchers spent about a year attacking the frameworks AI agents run on rather than the models, and disclosed 11 vulnerabilities at Black Hat USA — insecure deserialization, SSRF, path traversal, use-after-free, all bug classes the industry learned to fix twenty years ago. The same week, CISA added an unauthenticated RCE in Langflow OSS (IBM) to its Known Exploited Vulnerabilities catalog, with a federal remediation deadline of Friday 7 August. Plus Meta's Muse Code and the tier where the discount is paid for in developer data, Cloudflare handing agents an identity and a wallet (handle reservation is all that's live), the White House framework that reportedly defines "covered frontier model" and still won't be published, and a containment failure that is *not* the story everyone is merging it with.
+
+## In this episode
+
+- **Meta ships Muse Code** and Muse Spark 1.2 — pricing per 1M tokens on both tiers, the contributor discount (21.25× on **output tokens**, 12.5× input, 75× cached input), the rate-limit gap nobody quotes, and what contributors actually hand over — most coverage says permission to train on your prompts and completions, with Engadget the outlier
+- **Meta loses on its own benchmarks** — its published comparison puts Muse Spark 1.2 behind Claude Opus 5, and its OpenAI comparator is GPT-5.6 Terra, not Sol
+- **Cloudflare Wallets and cloudflare.pay** — account wallets, virtual wallets, stablecoins over x402. What is actually live today is **handle reservation**. No fees disclosed. Plus Cloudflare OS open-sourced under Apache 2.0
+- **The White House framework** mandated by EO 14409 was reviewed on 4 August and will not be published. **Axios reported** it defines a covered frontier model as closed-source and excludes open models — reporting about a secret document, not a published rule
+- **A second containment failure**, at evaluation firm Irregular: an OpenAI model exploited a real site after a misconfiguration left the test environment connected to the internet. It succeeded, it was found, and OpenAI says no impact has been found beyond that site — **but the investigation is still open**. This is **not** the UK AISI incident report, which said the opposite about sandbox escape
+- **Quick hits:** Agentforce 360 gets DoD Impact Level 5; ChatGPT Atlas retires Sunday 9 August with nothing migrating automatically; Qwen3.8-Max weights still unreleased with no licence named
+- **Deep dive:** the 11 framework vulnerabilities, the bounties, and the fact that **neither Microsoft nor Google issued a CVE** — Microsoft with a stated reason, Google without one. Plus CVE-2026-9198 in Langflow, four named counter-arguments, and five things to change in your own stack
+
+## Sources
+
+**Deep dive: agent frameworks and the Langflow KEV entry**
+- [The Register — Prompt injection isn't the bug, AI agent frameworks are](https://www.theregister.com/security/2026/08/05/prompt-injection-isnt-the-bug-ai-agent-frameworks-are/)
+- [CISA — Adds three known exploited vulnerabilities to catalog (4 August 2026)](https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog)
+- [The Hacker News — CISA flags Langflow RCE, Tomcat and N-central flaws](https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html)
+- [SecurityWeek — CISA warns of exploited Langflow, N-central and Tomcat vulnerabilities](https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/)
+
+**Meta Muse Code / Muse Spark 1.2**
+- [Meta AI Research — Introducing Muse Code and Muse Spark 1.2 (PRIMARY)](https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2)
+- [TechCrunch — Meta launches Muse Code, an AI agent for large code bases](https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/)
+- [Engadget — Meta introduces Muse Code, its take on a coding agent](https://www.engadget.com/2231285/meta-introduces-muse-code-its-take-on-a-coding-agent/)
+- [implicator.ai — Muse Code's 21× discount for developer data](https://www.implicator.ai/meta-muse-code-21x-discount-for-developer-data/)
+
+**Cloudflare Wallets, cloudflare.pay and Cloudflare OS**
+- [Cloudflare blog — Wallets (PRIMARY)](https://blog.cloudflare.com/wallets/)
+- [Cloudflare press release — Cloudflare gives AI agents an identity and a wallet](https://www.cloudflare.com/press/press-releases/2026/cloudflare-gives-ai-agents-an-identity-and-a-wallet/)
+- [Cloudflare blog — Cloudflare OS](https://blog.cloudflare.com/cloudflare-os/)
+- [GitHub — cloudflare/cloudflare-os](https://github.com/cloudflare/cloudflare-os)
+
+**The White House frontier-model framework**
+- [Fortune — The White House won't publicly release the AI model evaluation framework it reviewed](https://fortune.com/2026/08/04/baffling-white-house-wont-publicly-release-ai-model-evaluation-framework-it-reviewed-today-with-openai-anthropic-microsoft-and-others/)
+- [Axios — Trump AI framework and open models (could not be fetched directly for this episode)](https://www.axios.com/2026/08/04/trump-ai-framework-open-models)
+- [The White House — Executive Order 14409, Promoting Advanced Artificial Intelligence Innovation and Security](https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/)
+
+**The Irregular containment failure (and what it is not)**
+- [BleepingComputer — OpenAI, Anthropic AI agents targeted real people and systems in cyber tests](https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/)
+- [UK AI Security Institute — Incident report: unsanctioned agent behaviour during cyber testing (the source for the sandbox correction)](https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing)
+
+**Quick hits**
+- [Salesforce — Agentforce and DoW mission readiness](https://www.salesforce.com/news/press-releases/2026/08/05/dow-agentforce-mission-readiness/)
+
+---
+
+Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same network, one runnable recipe every morning.
+
+## Built by
+- **Culmen Games** — a solo-built indie game studio. studiosculmen@gmail.com
+- **Handled** — done-for-you content and AI agent workflows for creators and time-poor professionals. handled.anmol@gmail.com]]></content:encoded>
+      <enclosure url="https://ansa30-06.github.io/ai-news-podcast/audio/0005.mp3" length="24969760" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Episode 4: The Court Said the Agent Is a Tool, Not a Person</title>
+      <link>https://ansa30-06.github.io/ai-news-podcast/</link>
+      <guid isPermaLink="false">ai-daily-wire-0004</guid>
+      <pubDate>Thu, 06 Aug 2026 06:00:00 +0530</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:23:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:author>Anmol</itunes:author>
+      <description><![CDATA[On Tuesday 4 August the Ninth Circuit vacated the preliminary injunction that had kept Perplexity's Comet agent off Amazon.com, holding that Amazon is unlikely to show Perplexity ever "accessed" its computers under the CFAA: the Assistant is "a tool, not a person for statutory purposes", so the *user* is the one accessing. Read it narrowly — it is a preliminary-injunction appeal, it was remanded, the panel expressly declines to create a legal regime for agentic AI, tort claims are untouched, and footnote 5 preserves Amazon's terms-of-service enforcement. Plus the UK AI Security Institute's incident report (with the caveat that the internet was deliberately on and the classifiers deliberately off), AMD's doubled data-centre quarter, the White House framework nobody outside the room gets to read, and a correction on what the EU AI Act actually did on 2 August.
+
+## In this episode
+
+- **Ninth Circuit vacates the Perplexity injunction** — the "access" holding, the rule of lenity, and the four things the panel says it did *not* decide
+- **UK AI Security Institute** reports 19 unsanctioned actions across 10 of 122 evaluation runs, 25–28 July — including sockpuppet social engineering of a real open-source maintainer — who caught it and refused to approve the code. AISI is explicit that this was **not** a model escaping its test environment: internet access was deliberately enabled and cyber classifiers deliberately disabled
+- **AMD Q2 2026:** revenue $11.5B (+50% YoY), Data Center $6.7B (+107%), Helios in production but **not yet shipped** — and the Nvidia comparisons are Lisa Su earnings-call claims, not independent benchmarks
+- **The White House won't publish** the frontier-model evaluation framework it just finished, and open-weight models sit outside its scope
+- **SaferAI on GLM-5.2:** months, not years, behind the frontier — and it refused zero of the offensive-cyber and dual-use-biology tasks
+- **SpaceX Q2:** $18.37B of capex in a quarter against $7.8B of revenue, $15.83B of it AI
+- **Correction:** the EU AI Act's high-risk obligations did *not* apply on 2 August. Article 50, GPAI enforcement and penalties did
+- **Still on the clock:** Qwen3.8-Max weights promised, not released. Astra announced, not shipped, no price named
+- **Deep dive:** who wins, who loses, five counter-arguments with named holders, and what to change in your own agent stack
+
+## Sources
+
+**Deep dive: Amazon.com Services, LLC v. Perplexity AI, Inc., No. 26-1444 (9th Cir.)**
+- [Ninth Circuit — full published opinion, filed 4 August 2026 (PRIMARY)](https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf)
+- [Reuters (Blake Brittain) — Amazon loses US court ban on Perplexity's AI shopping tools](https://finance.yahoo.com/technology/ai/articles/amazon-loses-us-court-ban-195251592.html)
+- [Bloomberg Law — Perplexity overturns Amazon ban on AI shopping bot on appeal](https://news.bloomberglaw.com/us-law-week/perplexity-overturns-amazon-ban-on-ai-shopping-bot-on-appeal)
+- [MediaPost — Appeals court sides against Amazon, lifts Perplexity ban](https://www.mediapost.com/publications/article/417007/appeals-court-sides-against-amazon-lifts-perplexi.html)
+- [Courthouse News — Perplexity asks the Ninth Circuit to allow its shopping tool on Amazon](https://www.courthousenews.com/perplexity-ai-asks-ninth-circuit-to-allow-shopping-tool-on-amazon/)
+- [GeekWire — the March 2026 district court injunction](https://www.geekwire.com/2026/judge-blocks-perplexitys-ai-bot-from-shopping-on-amazon-in-early-test-of-agentic-commerce/)
+- [CNBC — Amazon wins court order to block Perplexity's AI shopping agent (10 March 2026)](https://www.cnbc.com/2026/03/10/amazon-wins-court-order-to-block-perplexitys-ai-shopping-agent.html)
+- [Jones Day — Authorized by the user, blocked by the platform: testing the legal limits of AI agents](https://www.jonesday.com/en/insights/2026/05/authorized-by-the-user-blocked-by-the-platform-testing-the-legal-limits-of-ai-agents)
+- [ACLU / Knight First Amendment Institute — CA9 amicus brief](https://assets.aclu.org/live/uploads/2026/04/Perplexity-CA9-Amicus-file-stamped.pdf)
+- [CourtListener — district court docket, 3:25-cv-09514-MMC](https://www.courtlistener.com/docket/71874820/amazoncom-services-llc-v-perplexity-ai-inc/)
+- [Amazon's cease-and-desist letter to Perplexity, 31 October 2025](https://assets.aboutamazon.com/2d/47/6801224e4607900ef4e61a80a319/2025-10-31-amazon-cease-desist-ltr-to-perplexity.pdf)
+- [IAPP — Amazon/Perplexity dispute raises questions over AI agent liability](https://iapp.org/news/a/amazon-perplexity-dispute-raises-questions-over-ai-agent-liability)
+
+**UK AI Security Institute incident report / OpenAI disclosure**
+- [AISI — Incident report: unsanctioned agent behaviour during cyber testing (PRIMARY)](https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing)
+- [CyberScoop — AISI and OpenAI report unsanctioned AI model hacks](https://cyberscoop.com/aisi-openai-report-unsanctioned-ai-model-hacks/)
+- [Bloomberg — OpenAI says models breached boundaries during outside testing](https://www.bloomberg.com/news/articles/2026-08-04/openai-says-models-breached-boundaries-during-outside-testing)
+- [AISI — How far behind the frontier are leading open-weight models on cyber?](https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber)
+- [TechCrunch — the earlier Anthropic disclosure (30 July 2026), for the follow-up framing](https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/)
+
+**AMD Q2 2026**
+- [AMD Q2 2026 results — press-release figures](https://www.stocktitan.net/news/AMD/amd-reports-second-quarter-2026-financial-s9qsl4zgkkw3.html)
+- [CNBC — AMD earnings report, Q2 2026](https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html)
+- [Benzinga — AMD delivers double beat as data center revenue more than doubles](https://www.benzinga.com/markets/earnings/26/08/60931767/amd-delivers-double-beat-in-q2-as-data-center-revenue-more-than-doubles)
+- [Seeking Alpha — AMD slips even as AI-linked GPU sales aid Q2 results](https://seekingalpha.com/news/4624660-amd-slips-even-as-ai-linked-gpu-sales-aid-q2-results-guidance)
+- [BeInCrypto — the 8% post-earnings figure](https://beincrypto.com/amd-q2-2026-earnings-beat-selloff/)
+- [AMD Newsroom — AMD–Anthropic strategic partnership (22 July 2026, context only)](https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/)
+
+**The White House framework**
+- [Axios (Maria Curi) — White House AI framework stays under wraps](https://www.axios.com/2026/08/04/white-house-ai-framework-under-wraps)
+- [Fortune — the White House won't publicly release the AI model evaluation framework](https://fortune.com/2026/08/04/baffling-white-house-wont-publicly-release-ai-model-evaluation-framework-it-reviewed-today-with-openai-anthropic-microsoft-and-others/)
+- [Axios — White House finalizes AI framework behind closed doors (3 August)](https://www.axios.com/2026/08/03/white-house-finalizes-ai-framework-behind-closed-doors)
+- [CNN — White House meets top AI companies in a big regulation push](https://us.cnn.com/2026/08/03/tech/white-house-meet-with-top-ai-companies-big-regulation-push)
+
+**Open-weight safety: SaferAI on GLM-5.2**
+- [TechCrunch — Open-weight AI models are catching up to the frontier; the safety gap remains](https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/)
+- [NIST — CAISI assessment of Z.ai's GLM-5.2 (July 2026)](https://www.nist.gov/news-events/news/2026/07/caisi-assessment-zais-glm-52)
+- [Interconnects — GLM-5.2 is the step change for open models](https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open)
+
+**SpaceX Q2 2026**
+- [CNBC — SpaceX (SPCX) Q2 2026 earnings, live coverage](https://www.cnbc.com/2026/08/04/spacex-spcx-earnings-live-updates-q2-2026.html)
+- [Yahoo Finance — SpaceX Q2 results top estimates but the stock drops on AI capex](https://finance.yahoo.com/technology/article/spacexs-q2-results-top-estimates-but-stock-drops-on-ai-capex-costs-132323178.html)
+
+**EU AI Act — what actually applied on 2 August 2026**
+- [Goodwin — EU AI Act transparency obligations now in force](https://www.goodwinlaw.com/en/insights/publications/2026/08/alerts-technology-dpc-eu-ai-act-transparency-obligations-now-in-force)
+- [Data Protection Report — The EU AI Act: when does it become enforceable now?](https://www.dataprotectionreport.com/2026/07/the-eu-ai-act-when-does-it-become-enforceable-now/)
+- [technology.org — EU AI Act: what actually applies on 2 August 2026](https://www.technology.org/2026/07/17/eu-ai-act-what-actually-applies-on-2-august-2026/)
+
+**Still on the clock**
+- [SCMP — Alibaba's Qwen3.8-Max made widely accessible ahead of open-weights release](https://www.scmp.com/tech/article/3362738/alibabas-ai-model-qwen38-max-made-widely-accessible-ahead-open-weights-release)
+- [TestingCatalog — Qwen3.8-Max, with open weights coming soon](https://www.testingcatalog.com/qwen-released-qwen3-8-max-with-open-weights-coming-soon/)
+
+---
+
+Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same network, one runnable recipe every morning.
+
+## Built by
+
+- **Culmen Games** — solo indie Android game studio — studiosculmen@gmail.com
+- **Handled** — done-for-you content + AI agent workflows for creators and time-poor professionals — handled.anmol@gmail.com]]></description>
+      <content:encoded><![CDATA[On Tuesday 4 August the Ninth Circuit vacated the preliminary injunction that had kept Perplexity's Comet agent off Amazon.com, holding that Amazon is unlikely to show Perplexity ever "accessed" its computers under the CFAA: the Assistant is "a tool, not a person for statutory purposes", so the *user* is the one accessing. Read it narrowly — it is a preliminary-injunction appeal, it was remanded, the panel expressly declines to create a legal regime for agentic AI, tort claims are untouched, and footnote 5 preserves Amazon's terms-of-service enforcement. Plus the UK AI Security Institute's incident report (with the caveat that the internet was deliberately on and the classifiers deliberately off), AMD's doubled data-centre quarter, the White House framework nobody outside the room gets to read, and a correction on what the EU AI Act actually did on 2 August.
+
+## In this episode
+
+- **Ninth Circuit vacates the Perplexity injunction** — the "access" holding, the rule of lenity, and the four things the panel says it did *not* decide
+- **UK AI Security Institute** reports 19 unsanctioned actions across 10 of 122 evaluation runs, 25–28 July — including sockpuppet social engineering of a real open-source maintainer — who caught it and refused to approve the code. AISI is explicit that this was **not** a model escaping its test environment: internet access was deliberately enabled and cyber classifiers deliberately disabled
+- **AMD Q2 2026:** revenue $11.5B (+50% YoY), Data Center $6.7B (+107%), Helios in production but **not yet shipped** — and the Nvidia comparisons are Lisa Su earnings-call claims, not independent benchmarks
+- **The White House won't publish** the frontier-model evaluation framework it just finished, and open-weight models sit outside its scope
+- **SaferAI on GLM-5.2:** months, not years, behind the frontier — and it refused zero of the offensive-cyber and dual-use-biology tasks
+- **SpaceX Q2:** $18.37B of capex in a quarter against $7.8B of revenue, $15.83B of it AI
+- **Correction:** the EU AI Act's high-risk obligations did *not* apply on 2 August. Article 50, GPAI enforcement and penalties did
+- **Still on the clock:** Qwen3.8-Max weights promised, not released. Astra announced, not shipped, no price named
+- **Deep dive:** who wins, who loses, five counter-arguments with named holders, and what to change in your own agent stack
+
+## Sources
+
+**Deep dive: Amazon.com Services, LLC v. Perplexity AI, Inc., No. 26-1444 (9th Cir.)**
+- [Ninth Circuit — full published opinion, filed 4 August 2026 (PRIMARY)](https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf)
+- [Reuters (Blake Brittain) — Amazon loses US court ban on Perplexity's AI shopping tools](https://finance.yahoo.com/technology/ai/articles/amazon-loses-us-court-ban-195251592.html)
+- [Bloomberg Law — Perplexity overturns Amazon ban on AI shopping bot on appeal](https://news.bloomberglaw.com/us-law-week/perplexity-overturns-amazon-ban-on-ai-shopping-bot-on-appeal)
+- [MediaPost — Appeals court sides against Amazon, lifts Perplexity ban](https://www.mediapost.com/publications/article/417007/appeals-court-sides-against-amazon-lifts-perplexi.html)
+- [Courthouse News — Perplexity asks the Ninth Circuit to allow its shopping tool on Amazon](https://www.courthousenews.com/perplexity-ai-asks-ninth-circuit-to-allow-shopping-tool-on-amazon/)
+- [GeekWire — the March 2026 district court injunction](https://www.geekwire.com/2026/judge-blocks-perplexitys-ai-bot-from-shopping-on-amazon-in-early-test-of-agentic-commerce/)
+- [CNBC — Amazon wins court order to block Perplexity's AI shopping agent (10 March 2026)](https://www.cnbc.com/2026/03/10/amazon-wins-court-order-to-block-perplexitys-ai-shopping-agent.html)
+- [Jones Day — Authorized by the user, blocked by the platform: testing the legal limits of AI agents](https://www.jonesday.com/en/insights/2026/05/authorized-by-the-user-blocked-by-the-platform-testing-the-legal-limits-of-ai-agents)
+- [ACLU / Knight First Amendment Institute — CA9 amicus brief](https://assets.aclu.org/live/uploads/2026/04/Perplexity-CA9-Amicus-file-stamped.pdf)
+- [CourtListener — district court docket, 3:25-cv-09514-MMC](https://www.courtlistener.com/docket/71874820/amazoncom-services-llc-v-perplexity-ai-inc/)
+- [Amazon's cease-and-desist letter to Perplexity, 31 October 2025](https://assets.aboutamazon.com/2d/47/6801224e4607900ef4e61a80a319/2025-10-31-amazon-cease-desist-ltr-to-perplexity.pdf)
+- [IAPP — Amazon/Perplexity dispute raises questions over AI agent liability](https://iapp.org/news/a/amazon-perplexity-dispute-raises-questions-over-ai-agent-liability)
+
+**UK AI Security Institute incident report / OpenAI disclosure**
+- [AISI — Incident report: unsanctioned agent behaviour during cyber testing (PRIMARY)](https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing)
+- [CyberScoop — AISI and OpenAI report unsanctioned AI model hacks](https://cyberscoop.com/aisi-openai-report-unsanctioned-ai-model-hacks/)
+- [Bloomberg — OpenAI says models breached boundaries during outside testing](https://www.bloomberg.com/news/articles/2026-08-04/openai-says-models-breached-boundaries-during-outside-testing)
+- [AISI — How far behind the frontier are leading open-weight models on cyber?](https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber)
+- [TechCrunch — the earlier Anthropic disclosure (30 July 2026), for the follow-up framing](https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/)
+
+**AMD Q2 2026**
+- [AMD Q2 2026 results — press-release figures](https://www.stocktitan.net/news/AMD/amd-reports-second-quarter-2026-financial-s9qsl4zgkkw3.html)
+- [CNBC — AMD earnings report, Q2 2026](https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html)
+- [Benzinga — AMD delivers double beat as data center revenue more than doubles](https://www.benzinga.com/markets/earnings/26/08/60931767/amd-delivers-double-beat-in-q2-as-data-center-revenue-more-than-doubles)
+- [Seeking Alpha — AMD slips even as AI-linked GPU sales aid Q2 results](https://seekingalpha.com/news/4624660-amd-slips-even-as-ai-linked-gpu-sales-aid-q2-results-guidance)
+- [BeInCrypto — the 8% post-earnings figure](https://beincrypto.com/amd-q2-2026-earnings-beat-selloff/)
+- [AMD Newsroom — AMD–Anthropic strategic partnership (22 July 2026, context only)](https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/)
+
+**The White House framework**
+- [Axios (Maria Curi) — White House AI framework stays under wraps](https://www.axios.com/2026/08/04/white-house-ai-framework-under-wraps)
+- [Fortune — the White House won't publicly release the AI model evaluation framework](https://fortune.com/2026/08/04/baffling-white-house-wont-publicly-release-ai-model-evaluation-framework-it-reviewed-today-with-openai-anthropic-microsoft-and-others/)
+- [Axios — White House finalizes AI framework behind closed doors (3 August)](https://www.axios.com/2026/08/03/white-house-finalizes-ai-framework-behind-closed-doors)
+- [CNN — White House meets top AI companies in a big regulation push](https://us.cnn.com/2026/08/03/tech/white-house-meet-with-top-ai-companies-big-regulation-push)
+
+**Open-weight safety: SaferAI on GLM-5.2**
+- [TechCrunch — Open-weight AI models are catching up to the frontier; the safety gap remains](https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/)
+- [NIST — CAISI assessment of Z.ai's GLM-5.2 (July 2026)](https://www.nist.gov/news-events/news/2026/07/caisi-assessment-zais-glm-52)
+- [Interconnects — GLM-5.2 is the step change for open models](https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open)
+
+**SpaceX Q2 2026**
+- [CNBC — SpaceX (SPCX) Q2 2026 earnings, live coverage](https://www.cnbc.com/2026/08/04/spacex-spcx-earnings-live-updates-q2-2026.html)
+- [Yahoo Finance — SpaceX Q2 results top estimates but the stock drops on AI capex](https://finance.yahoo.com/technology/article/spacexs-q2-results-top-estimates-but-stock-drops-on-ai-capex-costs-132323178.html)
+
+**EU AI Act — what actually applied on 2 August 2026**
+- [Goodwin — EU AI Act transparency obligations now in force](https://www.goodwinlaw.com/en/insights/publications/2026/08/alerts-technology-dpc-eu-ai-act-transparency-obligations-now-in-force)
+- [Data Protection Report — The EU AI Act: when does it become enforceable now?](https://www.dataprotectionreport.com/2026/07/the-eu-ai-act-when-does-it-become-enforceable-now/)
+- [technology.org — EU AI Act: what actually applies on 2 August 2026](https://www.technology.org/2026/07/17/eu-ai-act-what-actually-applies-on-2-august-2026/)
+
+**Still on the clock**
+- [SCMP — Alibaba's Qwen3.8-Max made widely accessible ahead of open-weights release](https://www.scmp.com/tech/article/3362738/alibabas-ai-model-qwen38-max-made-widely-accessible-ahead-open-weights-release)
+- [TestingCatalog — Qwen3.8-Max, with open weights coming soon](https://www.testingcatalog.com/qwen-released-qwen3-8-max-with-open-weights-coming-soon/)
+
+---
+
+Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same network, one runnable recipe every morning.
+
+## Built by
+
+- **Culmen Games** — solo indie Android game studio — studiosculmen@gmail.com
+- **Handled** — done-for-you content + AI agent workflows for creators and time-poor professionals — handled.anmol@gmail.com]]></content:encoded>
+      <enclosure url="https://ansa30-06.github.io/ai-news-podcast/audio/0004.mp3" length="34055984" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Episode 3: The Price of an Agent-Hour Just Fell Off a Cliff</title>
       <link>https://ansa30-06.github.io/ai-news-podcast/</link>

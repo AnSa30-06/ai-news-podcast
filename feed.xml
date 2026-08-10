@@ -8,15 +8,15 @@
     <link>https://ansa30-06.github.io/ai-news-podcast/</link>
     <atom:link href="https://ansa30-06.github.io/ai-news-podcast/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <copyright>&#169; 2026 Anmol</copyright>
+    <copyright>&#169; 2026 Culmen Pods</copyright>
     <description>A daily brief on artificial intelligence: the handful of stories that matter, why they matter for your work, and one deeper dive each day. Curated, sourced, and skimmable.</description>
-    <itunes:author>Anmol</itunes:author>
+    <itunes:author>Culmen Pods</itunes:author>
     <itunes:subtitle>The day's AI news that actually matters — ranked, sourced, and one deep dive.</itunes:subtitle>
     <itunes:summary>A daily brief on artificial intelligence: the handful of stories that matter, why they matter for your work, and one deeper dive each day. Curated, sourced, and skimmable.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner>
-      <itunes:name>Anmol</itunes:name>
+      <itunes:name>Culmen Pods</itunes:name>
       <itunes:email>podsculmen@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://ansa30-06.github.io/ai-news-podcast/cover.jpg"/>
@@ -40,7 +40,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>00:19:50</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:author>Anmol</itunes:author>
+      <itunes:author>Culmen Pods</itunes:author>
       <description><![CDATA[On Wednesday 5 August, Sundar Pichai's blog post moved Demis Hassabis to Chair of GDM and Chief Scientist of Alphabet, made Koray Kavukcuoglu **SVP of Google DeepMind reporting to Pichai — not CEO, whatever several outlets wrote** — and confirmed Jeff Dean's departure after 27 years to launch Discovery Loop with Sanjay Ghemawat, Oriol Vinyals and Quoc Le. Google DeepMind now has no chief executive, and the semi-independent layer between DeepMind and Google is gone. Plus CoreBreak, the Black Hat research showing an agent runtime can be made to fire its own tools with no model turn at all, Alphabet's up-to-$25bn bond raise, Canva cutting its growth forecast on AI serving costs, Google Maps becoming a transacting agent, and an AI that designed 16 working bacteriophages.
 
 ## In this episode
@@ -179,7 +179,7 @@ Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same net
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>00:17:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:author>Anmol</itunes:author>
+      <itunes:author>Culmen Pods</itunes:author>
       <description><![CDATA[Check Point researchers spent about a year attacking the frameworks AI agents run on rather than the models, and disclosed 11 vulnerabilities at Black Hat USA — insecure deserialization, SSRF, path traversal, use-after-free, all bug classes the industry learned to fix twenty years ago. The same week, CISA added an unauthenticated RCE in Langflow OSS (IBM) to its Known Exploited Vulnerabilities catalog, with a federal remediation deadline of Friday 7 August. Plus Meta's Muse Code and the tier where the discount is paid for in developer data, Cloudflare handing agents an identity and a wallet (handle reservation is all that's live), the White House framework that reportedly defines "covered frontier model" and still won't be published, and a containment failure that is *not* the story everyone is merging it with.
 
 ## In this episode
@@ -294,7 +294,7 @@ Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same net
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>00:23:38</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:author>Anmol</itunes:author>
+      <itunes:author>Culmen Pods</itunes:author>
       <description><![CDATA[On Tuesday 4 August the Ninth Circuit vacated the preliminary injunction that had kept Perplexity's Comet agent off Amazon.com, holding that Amazon is unlikely to show Perplexity ever "accessed" its computers under the CFAA: the Assistant is "a tool, not a person for statutory purposes", so the *user* is the one accessing. Read it narrowly — it is a preliminary-injunction appeal, it was remanded, the panel expressly declines to create a legal regime for agentic AI, tort claims are untouched, and footnote 5 preserves Amazon's terms-of-service enforcement. Plus the UK AI Security Institute's incident report (with the caveat that the internet was deliberately on and the classifiers deliberately off), AMD's doubled data-centre quarter, the White House framework nobody outside the room gets to read, and a correction on what the EU AI Act actually did on 2 August.
 
 ## In this episode
@@ -461,7 +461,7 @@ Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same net
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>00:19:19</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:author>Anmol</itunes:author>
+      <itunes:author>Culmen Pods</itunes:author>
       <description><![CDATA[In five days, three unrelated moves collapsed what it costs to run an AI agent: OpenAI cut its two cheaper GPT-5.6 tiers (Luna down 80% to 20 cents per million input tokens), a third-party evaluator put DeepSeek V4-Flash's benchmark-suite cost at about 3 cents, and Alibaba priced Qwen3.8-Max below the open-weights leader. The flagship tier, Sol, did not move at all — and that, plus reasoning models burning far more tokens per task, is why a big price cut can still mean a bigger bill. Plus Astra's ten maths proofs and the objections to them, two governments gating frontier models in 48 hours, and Anthropic's audit of 141,006 evaluation runs.
 
 ## In this episode
@@ -610,7 +610,7 @@ Sister show: **AI Workflow and Tips Daily** — a daily how-to from the same net
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>00:13:38</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:author>Anmol</itunes:author>
+      <itunes:author>Culmen Pods</itunes:author>
       <description><![CDATA[Two landmark data-center deals landed in a single week, and together they reveal how the entire AI buildout is now being financed: with borrowed money and vendor guarantees, increasingly kept off the balance sheets of the companies whose names are on the buildings. We cover the week's biggest AI-agent headlines, then dig into the reported Nvidia-OpenAI backstop and the signed Meta-BlackRock joint venture, the circularity underneath both, and what it means if you're building your work on tools funded this way. Measured, sourced, and framed around what you can actually do about it.
 
 ## In this episode
@@ -725,7 +725,7 @@ Built by:
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>00:13:06</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:author>Anmol</itunes:author>
+      <itunes:author>Culmen Pods</itunes:author>
       <description><![CDATA[The first episode of The AI Daily Wire. Moonshot AI published the full weights for Kimi K3 — a
 2.8-trillion-parameter model — and almost everything else this week is a reaction to it. Plus a
 reported quarter-trillion-dollar financing backstop, Anthropic's CEO breaking his silence on open

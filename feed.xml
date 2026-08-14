@@ -28,8 +28,127 @@
     <itunes:category text="Technology">
       <itunes:category text="Tech News"/>
     </itunes:category>
-    <lastBuildDate>Sat, 08 Aug 2026 06:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 06:00:00 +0530</lastBuildDate>
 
+    <item>
+      <title>Episode 8: OpenAI Called Its Own Model Critical. Anthropic Spent the Same Day Loosening Dials.</title>
+      <link>https://ansa30-06.github.io/ai-news-podcast/</link>
+      <guid isPermaLink="false">ai-daily-wire-0008</guid>
+      <pubDate>Mon, 10 Aug 2026 06:00:00 +0530</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>00:21:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:author>Culmen Pods</itunes:author>
+      <description><![CDATA[On Friday the seventh of August, OpenAI flagged an unreleased model at the highest cyber-capability tier its framework defines and slowed it down. The same day, Anthropic loosened its biology safeguards by roughly eighty-five percent and set Claude Code's auto mode to become the default. Both cited their own internal frameworks. Neither answers to anyone outside.
+
+## In this episode
+
+**Headlines**
+1. **OpenAI flags Astra as its first "Critical" cyber model and slows it.** Activities paused, development not halted. The prior ceiling was High.
+2. **Claude Code auto mode becomes the default on Friday the fourteenth of August.** Anthropic's own classifier study, on Anthropic's own numbers. Pro, Max and Team; Enterprise stays opt-in.
+3. **Anthropic loosens Fable 5's biology safeguards by about eighty-five percent** — with virology, toxicology and molecular design still falling back to Opus 5.
+4. **The money, in two halves of one trade.** Harvey in talks to raise at a $15.5bn valuation, and Rippling's AI token bill reaching a share of R&D spend that made its own executives, in their word, incredulous.
+5. **The Department of Energy opens the Genesis Open Models contributor portal** — with no model, no licence and no size stated.
+
+Plus one follow-up with a clock that starts today: the Qwen3.8-Max open-weights release.
+
+**The Wire Deep Dive — the labs are the only referees**
+Two companies moved their own safety dials in opposite directions inside twenty-four hours, each citing a framework it wrote itself and can revise itself. What is actually new, who wins, who loses, and five named counter-arguments that do not agree with each other: Zvi Mowshowitz, James Kettle of PortSwigger, VulnCheck's exploitation data, the Coggins et al. framework analysis alongside Dean W. Ball, and Anthropic's Dianne Penn.
+
+## Sources
+
+- [OpenAI — responding to the next frontier of critical cyber capabilities](https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/)
+- [Axios — OpenAI Astra model delay over cybersecurity risks](https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks)
+- [TechCrunch — OpenAI says it slowed Astra model development over security concerns](https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/)
+- [The Decoder — OpenAI flags Astra at the highest cybersecurity risk level](https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/)
+- [Sam Altman on X](https://x.com/sama/status/2085862292311396515)
+- [OpenAI on X](https://x.com/OpenAI/status/2085801349866729975)
+- [Anthropic — auto mode default in Claude Code](https://claude.com/blog/auto-mode-default-in-claude-code)
+- [The New Stack — Claude Code auto mode](https://thenewstack.io/claude-code-auto-mode/)
+- [The Decoder — Anthropic sets Claude Code to auto mode by default](https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/)
+- [9to5Mac — Claude Code enabling auto mode as default next week](https://9to5mac.com/2026/08/07/psa-claude-code-enabling-auto-mode-as-default-next-week-anthropic-says/)
+- [TNW — Anthropic Fable 5 biology safeguards](https://thenextweb.com/news/anthropic-claude-fable-5-biology-safeguards-fallbacks-dual-use)
+- [Unite.ai — Anthropic retunes Fable 5's biology safeguards](https://www.unite.ai/anthropic-retunes-fable-5s-biology-safeguards-cutting-blocked-queries-85/)
+- [The Information — Harvey in talks to raise at a $15.5bn valuation](https://www.theinformation.com/articles/harvey-talks-raise-funding-15-5-billion-valuation)
+- [SiliconANGLE — Harvey reportedly raising $500M at $15.5B](https://siliconangle.com/2026/08/07/legal-ai-startup-harvey-reportedly-raising-500m-15-5b-valuation/)
+- [TechCrunch — after Rippling blew millions on AI, it built an employee ROI tool](https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/)
+- [DOE launches the Genesis Open Models Initiative](https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-launches-genesis-open-models-initiative)
+- [Genesis Open Models portal](https://genesisopenmodels.anl.gov/)
+- [Arcee AI — Science](https://www.arcee.ai/science-1)
+- [PortSwigger Research — HTTP Terminator](https://portswigger.net/research/http-terminator)
+- [The Hacker News — AI-assisted HTTP Terminator finds novel flaws](https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html)
+- [VulnCheck — State of Exploitation, 1H 2026](https://www.vulncheck.com/blog/state-of-exploitation-1h-2026)
+- [The Register — AI-found bugs aren't proving any easier to exploit](https://www.theregister.com/security/2026/07/28/ai-found-bugs-arent-proving-any-easier-to-exploit-despite-the-hype/5279637)
+- [Future of Life Institute — AI Safety Index, Summer 2026](https://futureoflife.org/ai-safety-index-summer-2026/)
+- [Coggins et al. — arXiv 2509.24394](https://arxiv.org/abs/2509.24394)
+- [Axios — Anthropic Mythos-class safeguards](https://www.axios.com/2026/06/09/anthropic-mythos-class-safeguards)
+- [SCMP — Qwen3.8-Max made widely accessible ahead of open-weights release](https://www.scmp.com/tech/article/3362738/alibabas-ai-model-qwen38-max-made-widely-accessible-ahead-open-weights-release)
+
+## Also from this network
+
+**AI Workflow and Tips Daily** — one runnable recipe every morning, plus the tips, repos and skills you can copy today. Different host.
+
+## Built by
+
+- **Culmen Games** — an indie game studio, an Android roster built solo. `studiosculmen@gmail.com`
+- **Handled** — done-for-you content and AI agent workflows for creators and time-poor professionals. `handled.anmol@gmail.com`]]></description>
+      <content:encoded><![CDATA[On Friday the seventh of August, OpenAI flagged an unreleased model at the highest cyber-capability tier its framework defines and slowed it down. The same day, Anthropic loosened its biology safeguards by roughly eighty-five percent and set Claude Code's auto mode to become the default. Both cited their own internal frameworks. Neither answers to anyone outside.
+
+## In this episode
+
+**Headlines**
+1. **OpenAI flags Astra as its first "Critical" cyber model and slows it.** Activities paused, development not halted. The prior ceiling was High.
+2. **Claude Code auto mode becomes the default on Friday the fourteenth of August.** Anthropic's own classifier study, on Anthropic's own numbers. Pro, Max and Team; Enterprise stays opt-in.
+3. **Anthropic loosens Fable 5's biology safeguards by about eighty-five percent** — with virology, toxicology and molecular design still falling back to Opus 5.
+4. **The money, in two halves of one trade.** Harvey in talks to raise at a $15.5bn valuation, and Rippling's AI token bill reaching a share of R&D spend that made its own executives, in their word, incredulous.
+5. **The Department of Energy opens the Genesis Open Models contributor portal** — with no model, no licence and no size stated.
+
+Plus one follow-up with a clock that starts today: the Qwen3.8-Max open-weights release.
+
+**The Wire Deep Dive — the labs are the only referees**
+Two companies moved their own safety dials in opposite directions inside twenty-four hours, each citing a framework it wrote itself and can revise itself. What is actually new, who wins, who loses, and five named counter-arguments that do not agree with each other: Zvi Mowshowitz, James Kettle of PortSwigger, VulnCheck's exploitation data, the Coggins et al. framework analysis alongside Dean W. Ball, and Anthropic's Dianne Penn.
+
+## Sources
+
+- [OpenAI — responding to the next frontier of critical cyber capabilities](https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/)
+- [Axios — OpenAI Astra model delay over cybersecurity risks](https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks)
+- [TechCrunch — OpenAI says it slowed Astra model development over security concerns](https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/)
+- [The Decoder — OpenAI flags Astra at the highest cybersecurity risk level](https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/)
+- [Sam Altman on X](https://x.com/sama/status/2085862292311396515)
+- [OpenAI on X](https://x.com/OpenAI/status/2085801349866729975)
+- [Anthropic — auto mode default in Claude Code](https://claude.com/blog/auto-mode-default-in-claude-code)
+- [The New Stack — Claude Code auto mode](https://thenewstack.io/claude-code-auto-mode/)
+- [The Decoder — Anthropic sets Claude Code to auto mode by default](https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/)
+- [9to5Mac — Claude Code enabling auto mode as default next week](https://9to5mac.com/2026/08/07/psa-claude-code-enabling-auto-mode-as-default-next-week-anthropic-says/)
+- [TNW — Anthropic Fable 5 biology safeguards](https://thenextweb.com/news/anthropic-claude-fable-5-biology-safeguards-fallbacks-dual-use)
+- [Unite.ai — Anthropic retunes Fable 5's biology safeguards](https://www.unite.ai/anthropic-retunes-fable-5s-biology-safeguards-cutting-blocked-queries-85/)
+- [The Information — Harvey in talks to raise at a $15.5bn valuation](https://www.theinformation.com/articles/harvey-talks-raise-funding-15-5-billion-valuation)
+- [SiliconANGLE — Harvey reportedly raising $500M at $15.5B](https://siliconangle.com/2026/08/07/legal-ai-startup-harvey-reportedly-raising-500m-15-5b-valuation/)
+- [TechCrunch — after Rippling blew millions on AI, it built an employee ROI tool](https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/)
+- [DOE launches the Genesis Open Models Initiative](https://www.energy.gov/undersecretaryforscience/articles/us-department-energy-launches-genesis-open-models-initiative)
+- [Genesis Open Models portal](https://genesisopenmodels.anl.gov/)
+- [Arcee AI — Science](https://www.arcee.ai/science-1)
+- [PortSwigger Research — HTTP Terminator](https://portswigger.net/research/http-terminator)
+- [The Hacker News — AI-assisted HTTP Terminator finds novel flaws](https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html)
+- [VulnCheck — State of Exploitation, 1H 2026](https://www.vulncheck.com/blog/state-of-exploitation-1h-2026)
+- [The Register — AI-found bugs aren't proving any easier to exploit](https://www.theregister.com/security/2026/07/28/ai-found-bugs-arent-proving-any-easier-to-exploit-despite-the-hype/5279637)
+- [Future of Life Institute — AI Safety Index, Summer 2026](https://futureoflife.org/ai-safety-index-summer-2026/)
+- [Coggins et al. — arXiv 2509.24394](https://arxiv.org/abs/2509.24394)
+- [Axios — Anthropic Mythos-class safeguards](https://www.axios.com/2026/06/09/anthropic-mythos-class-safeguards)
+- [SCMP — Qwen3.8-Max made widely accessible ahead of open-weights release](https://www.scmp.com/tech/article/3362738/alibabas-ai-model-qwen38-max-made-widely-accessible-ahead-open-weights-release)
+
+## Also from this network
+
+**AI Workflow and Tips Daily** — one runnable recipe every morning, plus the tips, repos and skills you can copy today. Different host.
+
+## Built by
+
+- **Culmen Games** — an indie game studio, an Android roster built solo. `studiosculmen@gmail.com`
+- **Handled** — done-for-you content and AI agent workflows for creators and time-poor professionals. `handled.anmol@gmail.com`]]></content:encoded>
+      <enclosure url="https://ansa30-06.github.io/ai-news-podcast/audio/0008.mp3" length="30878658" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Episode 6: Google DeepMind No Longer Has a CEO</title>
       <link>https://ansa30-06.github.io/ai-news-podcast/</link>
